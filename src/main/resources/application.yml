@@ -1,0 +1,7 @@
+server:
+  port: 23456
+
+kanban-challenge:
+#Storing the value right at project root for the sake of simplicity.
+  loads: "encrypted_tickets.json"
+  shift: 5
